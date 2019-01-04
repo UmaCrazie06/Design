@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+section{
+    background: url(img.png);
+    background-size: cover;
+    width: 70%;
+    height: 2000px;
+    position: absolute;
+    overflow:hidden;
+}
+
+.snow1{
+    background:url(giphy.gif);
+    background-repeat: repeat;
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOne 10s infinite linear;
+}
+
+@keyframes animateOne
+{
+    0%
+    {
+        background-position: 0px 0px;
+    
+    }
+    100%{
+        background-position: 10px 65px;
+    
+}
+}
